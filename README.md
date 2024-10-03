@@ -15,7 +15,21 @@ To run the project locally, follow these steps:
 4. **Run the following command to start the development server**
    `yarn dev`
 
+
+
 ## Deploying to GitHub Pages
+
+This project is deployed automatically on GitHub Pages using GitHub Actions. Follow these steps to set up the deployment:
+
+Configure Repository Secrets:
+
+1. Navigate to your GitHub repository.
+2. Go to Settings > Secrets and variables > Actions.
+3. Add any necessary secrets, such as VITE_API_URL.
+4. Automatic Deployment:
+
+On every push to the gh-pages branch, the project will automatically build and deploy to GitHub Pages.
+
 
 ## Structure
 
