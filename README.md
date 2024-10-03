@@ -30,7 +30,6 @@ Configure Repository Secrets:
 
 On every push to the gh-pages branch, the project will automatically build and deploy to GitHub Pages.
 
-
 ## Structure
 
 - ui: Here we can find the components, containers and pages.
